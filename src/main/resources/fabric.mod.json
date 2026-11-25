@@ -1,0 +1,26 @@
+{
+        "schemaVersion": 1,
+        "id": "mist",
+        "version": "${version}",
+        "name": "MIST",
+        "description": "You know what it does",
+        "authors": ["Chunks"],
+        "license": "MIT",
+        "environment": "client",
+        "entrypoints": {
+                "main": ["com.mist.Mist"],
+                "client": ["com.mist.client.MistClient"]
+        },
+        "mixins": [
+                {
+                        "config": "mist.client.mixins.json",
+                        "environment": "client"
+                }
+        ],
+        "depends": {
+                "fabricloader": ">=0.19.5",
+                "minecraft": "~26.2",
+                "java": ">=25",
+                "fabric-api": "*"
+        }
+}

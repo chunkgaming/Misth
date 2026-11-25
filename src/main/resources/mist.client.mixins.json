@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "package": "com.mist.client.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "CameraMixin",
+    "ChatComponentMixin",
+    "DebugRendererMixin",
+    "EntityMixin",
+    "FishingHookRendererMixin",
+    "FogRendererMixin",
+    "HudMixin",
+    "ItemInHandRendererMixin",
+    "LavaFogEnvironmentMixin",
+    "ScreenEffectRendererMixin",
+    "WaterFogEnvironmentMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
