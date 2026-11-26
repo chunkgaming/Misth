@@ -47,7 +47,7 @@ public class MistClient implements ClientModInitializer {
                 freelookKey = KeyMappingHelper.registerKeyMapping(new KeyMapping(
                                 "key.mist.freelook",
                                 InputConstants.Type.KEYSYM,
-                                InputConstants.KEY_LMENU,
+                                InputConstants.KEY_LALT,
                                 category
                 ));
 

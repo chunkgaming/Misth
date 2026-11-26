@@ -125,7 +125,7 @@ public final class ModuleManager {
 
         public static void renderHuds(GuiGraphicsExtractor graphics, DeltaTracker deltaTracker) {
                 Minecraft mc = Minecraft.getInstance();
-                if (mc.options.hideGui) return;
+                
                 // HudEditorScreen renders previews itself so they appear crisp above the editor backdrop
                 if (mc.gui.screen() instanceof HudEditorScreen) return;
 

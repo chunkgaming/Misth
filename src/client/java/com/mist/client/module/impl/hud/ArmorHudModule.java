@@ -103,7 +103,7 @@ public class ArmorHudModule extends HudModule {
 
                         graphics.item(stack, ix, iy);
                         if ("Bar".equals(durMode)) {
-                                graphics.itemBar(stack, ix, iy);
+                                graphics.itemDecorations(font, stack, ix, iy, "");
                         } else if (!"Off".equals(durMode) && stack.isDamageableItem()) {
                                 int max = stack.getMaxDamage();
                                 int remaining = Math.max(0, max - stack.getDamageValue());

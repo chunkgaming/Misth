@@ -47,7 +47,7 @@ public class CustomCrosshairModule extends HudModule {
 
         public void renderAtCenter(GuiGraphicsExtractor graphics) {
                 Minecraft mc = Minecraft.getInstance();
-                if (mc.options.hideGui || mc.gui.screen() != null) return;
+                if (mc.gui.screen() != null) return;
                 int cx = graphics.guiWidth() / 2;
                 int cy = graphics.guiHeight() / 2;
                 boolean aimingAtPlayer = highlightOnPlayerHover.isEnabled() && mc.crosshairPickEntity instanceof Player;
